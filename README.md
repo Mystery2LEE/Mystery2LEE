@@ -146,6 +146,7 @@
 - **Precision 62.5% → 70.4%, Faithfulness 76.1% → 83.1%**
 
 <!-- TODO: 공개 저장소가 있으면 링크 추가 -->
+🔗 [KitBot21/Kit_Bot_RAG](https://github.com/KitBot21/Kit_Bot_RAG)
 
 <br/>
 
@@ -156,7 +157,7 @@
 | 💳 소비 페르소나 분류 · 금융 혜택 추천 | 신용카드 거래 185만 건과 Bank Marketing 데이터로 소비 유형을 나누고 맞춤 혜택 추천 | 금융 특화 데이터 분석 부트캠프 최종 프로젝트 |
 | 🎤 [면접장](https://github.com/Mystery2LEE/CS_Quiz_Site) | AI로 CS 면접 문제를 만들고 모의면접까지 할 수 있는 스터디 사이트 | 기획·개발 (Next.js, Redis, Claude API) |
 | ⛺ [BASE CAMP](https://github.com/Mystery2LEE/Python_Algorithm_Study) | push하면 풀이가 Notion에 자동 기록되는 GitHub Actions 파이프라인 | 5인 알고리즘 스터디 리드 |
-| 🔥 불마루 | 산불 대응 AI Agent (KT 믿:음 2.0) | K intelligence 해커톤 2025, 기획·모델 설계 |
+| 🔥 [불마루](https://github.com/K-Intelligence-HackerTon/KT_HackerTon) | 산불 대응 AI Agent (KT 믿:음 2.0) | K intelligence 해커톤 2025, 기획·모델 설계 |
 | 📚 [RAGFlow Demo](https://github.com/Mystery2LEE/ragflow-demo) | 문서 파싱부터 답변 생성까지 단계별로 보여주는 교육용 RAG 데모 | 개인 프로젝트 (Streamlit) |
 
 ## 📜 Experience
@@ -168,16 +169,17 @@
 | 2026 | 2026 연구 아이디어 기술사업화 챌린지 | 팀 POCHA Vision, 예선 통과 |
 | 2026.08 | 금오공과대학교 컴퓨터공학 졸업 | |
 | 2026.03 ~ 2026.06 | 캡스톤 디자인 「보살핌」 | 4인 팀 팀장 |
+| 2025.12 ~ 2026.02 | 금융 특화 데이터 분석 부트캠프 | 9주 심화반 수료 |
 | 2025 | K intelligence 해커톤 2025 | Track 1 AI Agent 「불마루」 |
-| YYYY.MM ~ YYYY.MM | 데이터마이닝 연구실 학부연구생 | NLP, 추천 시스템, 시계열 이상탐지 |
-| YYYY.MM ~ YYYY.MM | 금융 특화 데이터 분석 부트캠프 | 9주 심화반 수료 |
+| 2024.10 ~ 2026.07 | 데이터마이닝 연구실 학부연구생 | NLP, 추천 시스템, 시계열 이상탐지 |
 
 ## 📝 Certificates
 
 | 자격 | 발급 기관 | 상태 |
 | --- | --- | :---: |
 | ADsP (데이터분석 준전문가) | 한국데이터산업진흥원 | 취득 |
-| 정보처리기사 | 한국산업인력공단 | 필기 합격 |
+| SQLD (SQL 개발자) | 한국데이터산업진흥원 | 취득 |
+| 정보처리기사 | 한국산업인력공단 | 합격 |
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%"/>
