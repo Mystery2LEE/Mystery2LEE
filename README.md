@@ -2,6 +2,10 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0B2545,100:1D4E89&height=220&section=header&text=JeongHyun%20Lee&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20for%20Finance&descSize=18&descAlignY=58&animation=fadeIn)
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=1D4E89&center=true&vCenter=true&width=620&lines=Bridging+Finance+and+IT;Rule+Engine+%C2%B7+Graph+RAG+%C2%B7+Data+Pipeline;Turning+regulations+into+verifiable+logic" alt="Typing SVG"/>
+</p>
+
 <div align="center">
 
 ### 안녕하세요, 금융과 IT를 잇는 개발자 이정현입니다
@@ -12,6 +16,19 @@
 <a href="mailto:TODO@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://TODO-blog-url"><img src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=tistory&logoColor=white"/></a>
 <a href="https://github.com/Mystery2LEE"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+
+</div>
+
+<br/>
+
+## 🏆 Key Results
+
+<div align="center">
+
+<a href="#보살핌--graph-rag-복약-안전-분석"><img src="https://img.shields.io/badge/Graph%20RAG%20Recall-96.0%25-0B2545?style=for-the-badge&labelColor=1D4E89"/></a>
+<a href="#darkaudit--금융상품-다크패턴-점검-도구"><img src="https://img.shields.io/badge/Dark%20Pattern%20Precision-0.49%20%E2%86%92%201.00-0B2545?style=for-the-badge&labelColor=1D4E89"/></a>
+<a href="#학교-챗봇--rag-파이프라인"><img src="https://img.shields.io/badge/RAG%20Faithfulness-76.1%20%E2%86%92%2083.1%25-0B2545?style=for-the-badge&labelColor=1D4E89"/></a>
+<a href="#보살핌--graph-rag-복약-안전-분석"><img src="https://img.shields.io/badge/Knowledge%20Graph-1%2C473%20nodes%20%C2%B7%201%2C313%20edges-0B2545?style=for-the-badge&labelColor=1D4E89"/></a>
 
 </div>
 
@@ -59,8 +76,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./profile/stats.svg" height="170"/>
-  <img src="./profile/top-langs.svg" height="170"/>
+  <img src="./profile/stats.svg" height="165"/>
+  <img src="./profile/top-langs.svg" height="165"/>
 </div>
 
 <br/>
