@@ -62,6 +62,7 @@
   <img src="./profile/stats.svg" height="170"/>
   <img src="./profile/top-langs.svg" height="170"/>
 </div>
+&hide_rank=true
 
 <br/>
 
