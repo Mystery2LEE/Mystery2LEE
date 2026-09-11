@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 15 * * *"   # 매일 한국시간 자정
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/readme-cards.yml"
 
 jobs:
   build:
