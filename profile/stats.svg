@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">이정현 | JeongHyun Lee&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Commits  : 188, Total PRs: 25, Contributed to (last year): 4</desc>
+        <desc id="descId">Total Commits  : 192, Total PRs: 25, Contributed to (last year): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 221.822614016017;
+        stroke-dashoffset: 221.72080681405228;
       }
     }
   
@@ -158,7 +158,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >188</text>
+      >192</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
