@@ -39,14 +39,6 @@
   <img src="./assets/key-results.svg" width="100%" alt="2026 금융 AI Challenge 최우수상, Graph RAG Recall 96.0%, Detection Precision 0.49→1.00, VQA Leaderboard 0.9738"/>
 </p>
 
-## 🥇 Awards
-
-| 연도 | 수상 | 대회 · 주관 |
-| :---: | --- | --- |
-| 2026 | **최우수상** | 2026 금융 AI Challenge (536개 팀 참가) — 팀 소금빵, DarkAudit |
-| 2026 | **최우수 프로젝트** | 금오공과대학교 캡스톤 디자인 — 「보살핌」 |
-| 2026 | **본선 진출** | 2026 연구 아이디어 기술사업화 챌린지 (보건복지부 주최) — 팀 POCHA Vision |
-
 ## 🛠 Tech Stack
 
 <table>
