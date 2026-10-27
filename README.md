@@ -1,4 +1,4 @@
-<!-- TODO: 이메일·블로그 주소, 이력 표의 YYYY.MM 기간, 학교 챗봇 저장소 링크 -->
+<!-- TODO: 이메일·블로그 주소, ADsP·SQLD 취득 연월 -->
 
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="JeongHyun Lee | Bridging Finance and IT"/>
@@ -22,6 +22,7 @@
       <p>금융 규정과 공공 데이터를 <b>검증 가능한 AI 서비스</b>로 만드는 일을 합니다.</p>
       <p>금융위원회 다크패턴 가이드라인을 룰 엔진으로, 식약처 DUR 데이터를 지식그래프로 옮겼습니다.
       판단은 규칙과 데이터가 하고 LLM은 근거를 검증·설명하도록 설계하는 것을 선호합니다.</p>
+      <p>그렇게 만든 <b>DarkAudit</b>으로 2026 금융 AI Challenge에서 <b>최우수상</b>을 받았습니다.</p>
     </td>
     <td width="44%" valign="top">
       <p>🎓 <b>Education</b><br/>금오공과대학교 컴퓨터공학 (2026.08 졸업)</p>
@@ -35,8 +36,16 @@
 ## 🏆 Key Results
 
 <p align="center">
-  <img src="./assets/key-results.svg" width="100%" alt="Graph RAG Recall 96.0%, Detection Precision 0.49→1.00, RAG Faithfulness 83.1%, Knowledge Graph 1,473 nodes"/>
+  <img src="./assets/key-results.svg" width="100%" alt="2026 금융 AI Challenge 최우수상, Graph RAG Recall 96.0%, Detection Precision 0.49→1.00, VQA Leaderboard 0.9738"/>
 </p>
+
+## 🥇 Awards
+
+| 연도 | 수상 | 대회 · 주관 |
+| :---: | --- | --- |
+| 2026 | **최우수상** | 2026 금융 AI Challenge (536개 팀 참가) — 팀 소금빵, DarkAudit |
+| 2026 | **최우수 프로젝트** | 금오공과대학교 캡스톤 디자인 — 「보살핌」 |
+| 2026 | **본선 진출** | 2026 연구 아이디어 기술사업화 챌린지 (보건복지부 주최) — 팀 POCHA Vision |
 
 ## 🛠 Tech Stack
 
@@ -104,7 +113,7 @@
 | :---: | :---: | :---: | :--- |
 | 2026 | Data Engineer | 2인 | Python, FastAPI, SQLAlchemy, Playwright, Docker, OpenAI API |
 
-금융위원회 다크패턴 가이드라인(2025.12)의 15개 유형을 규칙으로 만들어, 금융상품 가입 화면을 설계 단계에서 점검하는 서비스입니다.
+금융위원회 다크패턴 가이드라인(2025.12)의 15개 유형을 규칙으로 만들어, 금융상품 가입 화면을 설계 단계에서 점검하는 서비스입니다. **536개 참가 팀 중 최우수상**을 받았습니다.
 
 - 15개 유형을 YAML Rule Base로 정리하고 룰 엔진 구현
 - 룰 엔진이 후보를 찾고 LLM이 검증하는 하이브리드 구조로 **Precision 0.49 → 1.00, F1 0.66 → 0.77**
@@ -121,7 +130,7 @@
 | :---: | :---: | :---: | :--- |
 | 2026.03 ~ 06 | 팀장 (Graph RAG) | 4인 | Neo4j, NestJS, GPT-4o-mini, CODEF API |
 
-고령자·1인 가구를 위한 통합 건강·안전 앱 「보살핌」에서 함께 먹으면 위험한 약 조합을 찾아 알려주는 복약 분석 파트를 만들었습니다.
+고령자·1인 가구를 위한 통합 건강·안전 앱 「보살핌」에서 함께 먹으면 위험한 약 조합을 찾아 알려주는 복약 분석 파트를 만들었습니다. 학과 **최우수 프로젝트**로 선정되었습니다.
 
 - 식약처 DUR API로 성분 1,473개, 병용금기 관계 1,313개를 Neo4j 지식그래프로 구축
 - 2홉 Cypher 쿼리로 직접 연결되지 않은 간접 위험 경로까지 탐지
@@ -133,19 +142,33 @@
 
 <br/>
 
-<img src="./assets/banner-chatbot.svg" width="100%" alt="학교 챗봇 RAG"/>
+<img src="./assets/banner-vqa.svg" width="100%" alt="Multimodal VQA"/>
+
+| 기간 | 역할 | 팀 | 기술 스택 |
+| :---: | :---: | :---: | :--- |
+| 2026.09 | 모델 학습 · 앙상블 설계 | SSAFY 16기 팀 | Qwen3-VL, Gemma, Unsloth, QLoRA, PaddleOCR |
+
+이미지에서 정보를 읽어 4지선다 문제를 푸는 멀티모달 VQA 대회입니다. 단일 모델 파인튜닝에서 시작해 앙상블 설계로 정확도를 끌어올렸습니다.
+
+- Unsloth 4bit QLoRA로 Qwen3-VL 계열 파인튜닝, 학습·추론 해상도를 768²로 통일해 **0.89 → 0.952**
+- 서로 다른 5개 모델 계열의 확률을 평균하는 앙상블로 **0.9738** 달성
+- 여러 모델이 동의할 때만 답을 교체하는 조건부 보정, OCR 입력 모델 추가 등 개별 기법의 효과를 리더보드로 검증
+
+<br/>
+
+<img src="./assets/banner-chatbot.svg" width="100%" alt="Kit_Bot_RAG"/>
 
 | 구분 | 역할 | 기술 스택 |
 | :---: | :---: | :--- |
-| 학부 프로젝트 | RAG 파이프라인 담당 | Python, Qdrant, bge-m3, Cross-Encoder, Ragas |
+| 학부 프로젝트 | RAG 파이프라인 담당 | Python, Flask, Qdrant, BGE-M3, Cross-Encoder, Ragas |
 
-학교 안내 챗봇의 검색 파이프라인을 설계하고, Ragas 지표를 보면서 검색 구조를 개선했습니다.
+학교 홈페이지 문서와 첨부파일에 흩어진 학사·생활 정보를 출처와 함께 답하는 챗봇입니다. 검색 파이프라인을 설계하고 Ragas 지표를 보며 구조를 개선했습니다.
 
-- 크롤링, 정규화, 청킹, 임베딩으로 이어지는 ETL 파이프라인 구축
+- 크롤링, 정규화, 청킹, 임베딩으로 이어지는 ETL 파이프라인 구축 (**16,106개 청크**)
+- PDF·Word·Excel·PPT 첨부파일까지 텍스트를 추출해 corpus에 통합
 - Semantic + BM25 하이브리드 검색과 Cross-Encoder 리랭킹 적용
 - **Precision 62.5% → 70.4%, Faithfulness 76.1% → 83.1%**
 
-<!-- TODO: 공개 저장소가 있으면 링크 추가 -->
 🔗 [KitBot21/Kit_Bot_RAG](https://github.com/KitBot21/Kit_Bot_RAG)
 
 <br/>
@@ -155,8 +178,8 @@
 | 프로젝트 | 내용 | 역할 |
 | --- | --- | --- |
 | 💳 소비 페르소나 분류 · 금융 혜택 추천 | 신용카드 거래 185만 건과 Bank Marketing 데이터로 소비 유형을 나누고 맞춤 혜택 추천 | 금융 특화 데이터 분석 부트캠프 최종 프로젝트 |
-| 🎤 [면접장](https://github.com/Mystery2LEE/CS_Quiz_Site) | AI로 CS 면접 문제를 만들고 모의면접까지 할 수 있는 스터디 사이트 | 기획·개발 (Next.js, Redis, Claude API) |
-| ⛺ [BASE CAMP](https://github.com/Mystery2LEE/Python_Algorithm_Study) | push하면 풀이가 Notion에 자동 기록되는 GitHub Actions 파이프라인 | 5인 알고리즘 스터디 리드 |
+| 🎤 [면접장](https://github.com/Mystery2LEE/CS_Quiz_Site) | AI로 CS 면접 문제를 만들고 모의면접까지 할 수 있는 스터디 사이트. 정보처리기사 실기 문제은행으로 확장 중 | 기획·개발 (Next.js, Redis, Claude API) |
+| ⛺ [BASE CAMP](https://github.com/Mystery2LEE/Python_Algorithm_Study) | push하면 풀이가 Notion에 자동 기록되는 GitHub Actions 파이프라인, 코드 리뷰 자동화 에이전트 | 5인 알고리즘 스터디 운영 |
 | 🔥 [불마루](https://github.com/K-Intelligence-HackerTon/KT_HackerTon) | 산불 대응 AI Agent (KT 믿:음 2.0) | K intelligence 해커톤 2025, 기획·모델 설계 |
 | 📚 [RAGFlow Demo](https://github.com/Mystery2LEE/ragflow-demo) | 문서 파싱부터 답변 생성까지 단계별로 보여주는 교육용 RAG 데모 | 개인 프로젝트 (Streamlit) |
 
@@ -165,21 +188,22 @@
 | 기간 | 활동 | 내용 |
 | :---: | --- | --- |
 | 2026.07 ~ | SSAFY 16기 데이터 트랙 | 삼성 청년 SW 아카데미 |
-| 2026 | 2026 금융 AI Challenge | 팀 소금빵, DarkAudit 출품 |
-| 2026 | 2026 연구 아이디어 기술사업화 챌린지 | 팀 POCHA Vision, 예선 통과 |
+| 2026 | 2026 금융 AI Challenge | 팀 소금빵, DarkAudit — **최우수상** (536개 팀) |
+| 2026.09 | 멀티모달 VQA 대회 (Kaggle) | SSAFY 16기 팀, 리더보드 0.9738 |
+| 2026 | 2026 연구 아이디어 기술사업화 챌린지 | 팀 POCHA Vision, 본선 진출 |
 | 2026.08 | 금오공과대학교 컴퓨터공학 졸업 | |
-| 2026.03 ~ 2026.06 | 캡스톤 디자인 「보살핌」 | 4인 팀 팀장 |
+| 2026.03 ~ 2026.06 | 캡스톤 디자인 「보살핌」 | 4인 팀 팀장 — **최우수 프로젝트** 선정 |
 | 2025.12 ~ 2026.02 | 금융 특화 데이터 분석 부트캠프 | 9주 심화반 수료 |
 | 2025 | K intelligence 해커톤 2025 | Track 1 AI Agent 「불마루」 |
 | 2024.10 ~ 2026.07 | 데이터마이닝 연구실 학부연구생 | NLP, 추천 시스템, 시계열 이상탐지 |
 
 ## 📝 Certificates
 
-| 자격 | 발급 기관 | 상태 |
+| 자격 | 발급 기관 | 취득 |
 | --- | --- | :---: |
-| ADsP (데이터분석 준전문가) | 한국데이터산업진흥원 | 취득 |
-| SQLD (SQL 개발자) | 한국데이터산업진흥원 | 취득 |
-| 정보처리기사 | 한국산업인력공단 | 합격 |
+| 정보처리기사 | 한국산업인력공단 | 2026.10 |
+| ADsP (데이터분석 준전문가) | 한국데이터산업진흥원 | YYYY.MM |
+| SQLD (SQL 개발자) | 한국데이터산업진흥원 | YYYY.MM |
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%"/>
